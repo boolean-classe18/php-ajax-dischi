@@ -7,12 +7,17 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
     </head>
-    <body>
+    <body id="versione-ajax">
         <header>
             <h1>AJAX DISCHI</h1>
         </header>
         <main>
             <div class="container">
+                <div class="filter">
+                    <select id="genre-filter">
+                        <option value="">-- select genre --</option>
+                    </select>
+                </div>
                 <div class="card-container">
 
                 </div>
@@ -26,6 +31,6 @@
                 <small class="year">{{ year }}</small>
             </div>
         </script>
-        <script src="main.js" charset="utf-8"></script>
+        <script src="../main.js" charset="utf-8"></script>
     </body>
 </html>

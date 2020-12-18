@@ -17,12 +17,17 @@ header {
 
 header h1 {
     line-height: 60px;
+    margin-left: 20px;
 }
 
 main {
     background-color: #555;
     min-height: calc(100vh - 60px);
     padding: 50px 0;
+}
+
+.filter {
+    text-align: center;
 }
 
 .card-container {
